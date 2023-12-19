@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Login&Register.css">
+  <title>Login&Register</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      background-color: #85ffbd;
+      background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/LOGO78.png" alt="logo" style="height: 60px;width: 60px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><b>HOME</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#"><b>COURSES</b></a>
+          </li>
+          
+          <li class="nav-item ">
+            <a class="nav-link active "><b>CONTACT</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active "><b>SERVICES</b></a>
+          </li>
+          
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-but">
+            <a class="btn btn-outline-dark" href="#">Register</a>
+          </li>
+          <li class="nav-but">
+            <a class="btn btn-outline-dark" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="vh-100 d-flex justify-content-right align-items-center">
+    <div class="col-md-3 p-5 ms-3 shadow-sm border rounded-5 border-dark bg-white">
+      <h2 class="text-center mb-4 text-success"><b style="font-family:monospace ;">LOGIN</b></h2>
+      <form action="" method="post">
+        <div class="mb-3">
+          <label for="exampleInputEmaill" class="form-label"><b style="font-family: monospace;">Email
+              Address</b></label>
+          <input type="email" class="form-control border border-primary" id="exampleInputEmaill"
+            aria-describedby="emailHelp">
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"><b style="font-family: monospace;">Password</b>
+
+          </label>
+          <input type="password" class="form-control border border-success" id="exampleInputPassword1">
+
+        </div>
+        <p class="small"><a class="text-primary" href="forget-password.html">Forget Password</a></p>
+        <div class="d-grid">
+          <button class="btn btn-success" type="Submit">Login</button>
+        </div>
+      </form>
+      <div class="mt-3">
+        <p class="mb-0 text-center">Don't have an account <a href="gignup.html" class="text-primary fw-bold">Sign Up</a>
+        </p>
+      </div>
+    </div>
+    <div class=" col-md-5 p-5 ms-auto shadow-sm border rounded-5 border-dark bg-white justify-content-left align-items-left ">
+      <h2 class="text-center mb-4 text-success"><b style="font-family: monospace;">REGISTER NOW</b></h2>
+    <form action="" method="post">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+      </div>
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="agree-check">
+        <label class="form-check-label" for="agree-check">I agree to the terms and conditions</label>
+      </div>
+      <button type="submit" class="btn btn-success">Register</button>
+      
+    </form>
+    </div>
+  </div>
+
+
+  
+
+  
+  
+    
+
+
+
+</body>
+
+</html>
